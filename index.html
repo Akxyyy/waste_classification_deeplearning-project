@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Waste Classification System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Waste Classification System</h1>
+    <p>Upload a waste image to classify</p>
+
+    <input type="file" id="imageInput" accept="image/*">
+    <button onclick="classifyImage()">Classify Waste</button>
+
+    <div class="result" id="result">
+        <p><strong>Waste Type:</strong> <span id="type">-</span></p>
+        <p><strong>Category:</strong> <span id="category">-</span></p>
+        <p><strong>Disposal Method:</strong> <span id="disposal">-</span></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
